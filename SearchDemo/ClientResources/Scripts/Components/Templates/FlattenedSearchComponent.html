@@ -1,0 +1,36 @@
+﻿<div>
+    <div class="epi-viewHeaderContainer" data-dojo-attach-point="ceToolbar" data-dojo-type="epi-cms/contentediting/EditToolbar" data-dojo-props="region:'top'"></div>
+    <div data-dojo-attach-point="topPaneContainerNode">
+        <div class="epi-documentHeader dijitLayoutContainer dijitContainer">
+            <div class="epi-containerLayout">
+                <ul>
+                    <li class="epi-formsRow">
+                        <label>Search Term</label>
+                        <div class="epi-formsWidgetWrapper" data-dojo-attach-point="toolbar">
+                            <div data-dojo-type="epi/shell/widget/SearchBox" data-dojo-attach-point="queryText" data-dojo-props="intermediateChanges:true" data-dojo-attach-event="onChange: _reloadQuery"></div>
+                        </div>
+                    </li>
+<!--                    <li class="epi-formsRow">
+                        <label>Languages</label>
+                        <div class="epi-formsWidgetWrapper">
+                            <span data-dojo-attach-point="languagesNode" class="dijitInline"><span>en</span></span>
+                        </div>
+                    </li>
+                    <li class="epi-formsRow">
+                        <label>ID, Type</label>
+                        <div class="epi-formsWidgetWrapper">
+                            <span data-dojo-attach-point="idNode" class="dijitInline">6</span>, <span data-dojo-attach-point="typeNode" class="dijitInline">Container page</span>
+                        </div>
+                    </li>
+                    <li class="epi-formsRow">
+                        <label></label>
+                        <div class="epi-formsWidgetWrapper">
+                            <span class="dijitDropDownButton dijit dijitReset dijitInline epi-mediumButton" widgetid="dijit_form_DropDownButton_28"><span class="dijitReset dijitInline dijitButtonNode" data-dojo-attach-event="ondijitclick:_onClick" data-dojo-attach-point="_buttonNode"><span class="dijitReset dijitStretch dijitButtonContents dijitDownArrowButton" data-dojo-attach-point="focusNode,titleNode,_arrowWrapperNode" role="button" aria-haspopup="true" aria-labelledby="dijit_form_DropDownButton_28_label" tabindex="0" id="dijit_form_DropDownButton_28" title="More options for the content" style="-webkit-user-select: none;"><span class="dijitReset dijitInline dijitIcon dijitNoIcon" data-dojo-attach-point="iconNode"></span><span class="dijitReset dijitInline dijitButtonText" data-dojo-attach-point="containerNode,_popupStateNode" id="dijit_form_DropDownButton_28_label">Tools</span><span class="dijitReset dijitInline dijitArrowButtonInner"></span><span class="dijitReset dijitInline dijitArrowButtonChar">▼</span></span></span><input type="button" value="" class="dijitOffScreen" tabindex="-1" data-dojo-attach-point="valueNode" role="presentation"></span>
+                        </div>
+                    </li>-->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div data-dojo-type="searchdemo/components/SearchViewGrid" data-dojo-attach-point="contentQuery"></div>
+</div>
