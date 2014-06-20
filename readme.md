@@ -1,4 +1,4 @@
-EPi Flattened Child Pages POC
+EPi Flattened Tree POC
 =========
 
 Inspired by Umbraco 7's collapsed tree feature - this proof of concept allows certain sections of the tree to be collapsed within EPiServer. These sections of the tree are then surfaced via a Search View, created with Dojo & EPiServer 7.5's Views feature.
